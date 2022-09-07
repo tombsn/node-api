@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const postsController = require('../controllers/postsControllers');
 const ObjectID = require('mongoose').Types.ObjectId;
 const {PostsModel} = require('../models/Posts')
 
